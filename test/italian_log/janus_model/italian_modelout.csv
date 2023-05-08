@@ -1,0 +1,485 @@
+'Constraint';'Template';'Activation';'Target';'Support';'Confidence level';'Interest factor'
+'Init(Assign seriousness)';'Init';'Assign seriousness';;0.957;0.957;0.957
+'Participation(Assign seriousness)';'Participation';'Assign seriousness';;0.982;0.982;0.982
+'CoExistence(Assign seriousness, Closed)';'CoExistence';'Assign seriousness';'Closed';0.978;0.979;0.979
+'Succession(Assign seriousness, Closed)';'Succession';'Assign seriousness';'Closed';0.978;0.979;0.979
+'RespondedExistence(Assign seriousness, Closed)';'RespondedExistence';'Assign seriousness';'Closed';0.978;0.996;0.996
+'Response(Assign seriousness, Closed)';'Response';'Assign seriousness';'Closed';0.978;0.996;0.996
+'NotSuccession(Assign seriousness, Create SW anomaly)';'NotSuccession';'Assign seriousness';'Create SW anomaly';0.969;0.987;0.987
+'NotCoExistence(Assign seriousness, Create SW anomaly)';'NotCoExistence';'Assign seriousness';'Create SW anomaly';0.969;0.987;0.987
+'NotSuccession(Assign seriousness, DUPLICATE)';'NotSuccession';'Assign seriousness';'DUPLICATE';0.981;1.000;1.000
+'NotCoExistence(Assign seriousness, DUPLICATE)';'NotCoExistence';'Assign seriousness';'DUPLICATE';0.981;1.000;1.000
+'NotSuccession(Assign seriousness, INVALID)';'NotSuccession';'Assign seriousness';'INVALID';0.981;1.000;1.000
+'NotCoExistence(Assign seriousness, INVALID)';'NotCoExistence';'Assign seriousness';'INVALID';0.981;1.000;1.000
+'NotSuccession(Assign seriousness, Insert ticket)';'NotSuccession';'Assign seriousness';'Insert ticket';0.983;1.000;1.000
+'NotCoExistence(Assign seriousness, Insert ticket)';'NotCoExistence';'Assign seriousness';'Insert ticket';0.959;0.975;0.975
+'NotSuccession(Assign seriousness, RESOLVED)';'NotSuccession';'Assign seriousness';'RESOLVED';0.981;1.000;1.000
+'NotCoExistence(Assign seriousness, RESOLVED)';'NotCoExistence';'Assign seriousness';'RESOLVED';0.981;1.000;1.000
+'NotSuccession(Assign seriousness, Require upgrade)';'NotSuccession';'Assign seriousness';'Require upgrade';0.959;0.977;0.977
+'NotCoExistence(Assign seriousness, Require upgrade)';'NotCoExistence';'Assign seriousness';'Require upgrade';0.959;0.977;0.977
+'NotSuccession(Assign seriousness, Resolve SW anomaly)';'NotSuccession';'Assign seriousness';'Resolve SW anomaly';0.980;0.998;0.998
+'NotCoExistence(Assign seriousness, Resolve SW anomaly)';'NotCoExistence';'Assign seriousness';'Resolve SW anomaly';0.980;0.998;0.998
+'CoExistence(Assign seriousness, Resolve ticket)';'CoExistence';'Assign seriousness';'Resolve ticket';0.980;0.981;0.981
+'Succession(Assign seriousness, Resolve ticket)';'Succession';'Assign seriousness';'Resolve ticket';0.980;0.981;0.981
+'RespondedExistence(Assign seriousness, Resolve ticket)';'RespondedExistence';'Assign seriousness';'Resolve ticket';0.980;0.998;0.998
+'Response(Assign seriousness, Resolve ticket)';'Response';'Assign seriousness';'Resolve ticket';0.980;0.998;0.998
+'NotSuccession(Assign seriousness, Schedule intervention)';'NotSuccession';'Assign seriousness';'Schedule intervention';0.981;0.999;0.999
+'NotCoExistence(Assign seriousness, Schedule intervention)';'NotCoExistence';'Assign seriousness';'Schedule intervention';0.981;0.999;0.999
+'NotSuccession(Assign seriousness, VERIFIED)';'NotSuccession';'Assign seriousness';'VERIFIED';0.981;0.999;0.999
+'NotCoExistence(Assign seriousness, VERIFIED)';'NotCoExistence';'Assign seriousness';'VERIFIED';0.981;0.999;0.999
+'AtMostOne(Closed)';'AtMostOne';'Closed';;0.992;0.997;0.997
+'End(Closed)';'End';'Closed';;0.995;0.995;0.995
+'Participation(Closed)';'Participation';'Closed';;0.995;0.995;0.995
+'Precedence(Assign seriousness, Closed)';'Precedence';'Closed';'Assign seriousness';0.978;0.982;0.982
+'AlternatePrecedence(Assign seriousness, Closed)';'AlternatePrecedence';'Closed';'Assign seriousness';0.975;0.979;0.979
+'CoExistence(Closed, Assign seriousness)';'CoExistence';'Closed';'Assign seriousness';0.978;0.979;0.979
+'RespondedExistence(Closed, Assign seriousness)';'RespondedExistence';'Closed';'Assign seriousness';0.978;0.982;0.982
+'NotSuccession(Closed, Assign seriousness)';'NotSuccession';'Closed';'Assign seriousness';0.999;1.000;1.000
+'NotSuccession(Closed, Create SW anomaly)';'NotSuccession';'Closed';'Create SW anomaly';0.997;1.000;1.000
+'NotCoExistence(Closed, Create SW anomaly)';'NotCoExistence';'Closed';'Create SW anomaly';0.985;0.989;0.989
+'NotSuccession(Closed, DUPLICATE)';'NotSuccession';'Closed';'DUPLICATE';0.995;1.000;1.000
+'NotCoExistence(Closed, DUPLICATE)';'NotCoExistence';'Closed';'DUPLICATE';0.995;1.000;1.000
+'NotSuccession(Closed, INVALID)';'NotSuccession';'Closed';'INVALID';0.995;1.000;1.000
+'NotCoExistence(Closed, INVALID)';'NotCoExistence';'Closed';'INVALID';0.995;1.000;1.000
+'NotSuccession(Closed, Insert ticket)';'NotSuccession';'Closed';'Insert ticket';0.996;1.000;1.000
+'NotCoExistence(Closed, Insert ticket)';'NotCoExistence';'Closed';'Insert ticket';0.971;0.975;0.975
+'NotSuccession(Closed, RESOLVED)';'NotSuccession';'Closed';'RESOLVED';0.995;1.000;1.000
+'NotCoExistence(Closed, RESOLVED)';'NotCoExistence';'Closed';'RESOLVED';0.995;1.000;1.000
+'NotSuccession(Closed, Require upgrade)';'NotSuccession';'Closed';'Require upgrade';0.998;1.000;1.000
+'NotCoExistence(Closed, Require upgrade)';'NotCoExistence';'Closed';'Require upgrade';0.978;0.980;0.980
+'NotSuccession(Closed, Resolve SW anomaly)';'NotSuccession';'Closed';'Resolve SW anomaly';0.996;1.000;1.000
+'NotCoExistence(Closed, Resolve SW anomaly)';'NotCoExistence';'Closed';'Resolve SW anomaly';0.995;0.999;0.999
+'CoExistence(Closed, Resolve ticket)';'CoExistence';'Closed';'Resolve ticket';0.995;0.998;0.998
+'RespondedExistence(Closed, Resolve ticket)';'RespondedExistence';'Closed';'Resolve ticket';0.995;1.000;1.000
+'NotSuccession(Closed, Resolve ticket)';'NotSuccession';'Closed';'Resolve ticket';0.997;1.000;1.000
+'NotSuccession(Closed, Schedule intervention)';'NotSuccession';'Closed';'Schedule intervention';0.995;1.000;1.000
+'NotCoExistence(Closed, Schedule intervention)';'NotCoExistence';'Closed';'Schedule intervention';0.994;0.999;0.999
+'NotSuccession(Closed, Take in charge ticket)';'NotSuccession';'Closed';'Take in charge ticket';0.999;1.000;1.000
+'NotSuccession(Closed, VERIFIED)';'NotSuccession';'Closed';'VERIFIED';0.995;1.000;1.000
+'NotCoExistence(Closed, VERIFIED)';'NotCoExistence';'Closed';'VERIFIED';0.995;0.999;0.999
+'NotSuccession(Closed, Wait)';'NotSuccession';'Closed';'Wait';0.998;1.000;1.000
+'Precedence(Resolve ticket, Closed)';'Precedence';'Closed';'Resolve ticket';0.995;1.000;1.000
+'AlternatePrecedence(Resolve ticket, Closed)';'AlternatePrecedence';'Closed';'Resolve ticket';0.992;0.997;0.997
+'ChainPrecedence(Resolve ticket, Closed)';'ChainPrecedence';'Closed';'Resolve ticket';0.992;0.996;0.996
+'Absence(Create SW anomaly)';'Absence';'Create SW anomaly';;0.987;0.987;0.987
+'Precedence(Assign seriousness, Create SW anomaly)';'Precedence';'Create SW anomaly';'Assign seriousness';0.012;0.983;0.983
+'RespondedExistence(Create SW anomaly, Assign seriousness)';'RespondedExistence';'Create SW anomaly';'Assign seriousness';0.012;0.983;0.983
+'NotSuccession(Create SW anomaly, Assign seriousness)';'NotSuccession';'Create SW anomaly';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(Create SW anomaly, Assign seriousness)';'NotCoExistence';'Create SW anomaly';'Assign seriousness';0.969;0.987;0.987
+'NotSuccession(Create SW anomaly, Closed)';'NotSuccession';'Create SW anomaly';'Closed';0.985;0.989;0.989
+'NotCoExistence(Create SW anomaly, Closed)';'NotCoExistence';'Create SW anomaly';'Closed';0.985;0.989;0.989
+'NotSuccession(Create SW anomaly, DUPLICATE)';'NotSuccession';'Create SW anomaly';'DUPLICATE';0.012;0.983;0.983
+'NotCoExistence(Create SW anomaly, DUPLICATE)';'NotCoExistence';'Create SW anomaly';'DUPLICATE';0.012;0.983;0.983
+'NotSuccession(Create SW anomaly, INVALID)';'NotSuccession';'Create SW anomaly';'INVALID';0.012;0.966;0.966
+'NotCoExistence(Create SW anomaly, INVALID)';'NotCoExistence';'Create SW anomaly';'INVALID';0.012;0.966;0.966
+'NotSuccession(Create SW anomaly, Insert ticket)';'NotSuccession';'Create SW anomaly';'Insert ticket';0.038;1.000;1.000
+'NotCoExistence(Create SW anomaly, Insert ticket)';'NotCoExistence';'Create SW anomaly';'Insert ticket';0.038;0.994;0.994
+'NotSuccession(Create SW anomaly, RESOLVED)';'NotSuccession';'Create SW anomaly';'RESOLVED';0.012;0.966;0.966
+'NotCoExistence(Create SW anomaly, RESOLVED)';'NotCoExistence';'Create SW anomaly';'RESOLVED';0.012;0.966;0.966
+'RespondedExistence(Create SW anomaly, Resolve ticket)';'RespondedExistence';'Create SW anomaly';'Resolve ticket';0.012;0.966;0.966
+'Response(Create SW anomaly, Resolve ticket)';'Response';'Create SW anomaly';'Resolve ticket';0.012;0.966;0.966
+'NotSuccession(Create SW anomaly, Resolve ticket)';'NotSuccession';'Create SW anomaly';'Resolve ticket';0.986;0.988;0.988
+'NotCoExistence(Create SW anomaly, Resolve ticket)';'NotCoExistence';'Create SW anomaly';'Resolve ticket';0.986;0.988;0.988
+'NotSuccession(Create SW anomaly, Schedule intervention)';'NotSuccession';'Create SW anomaly';'Schedule intervention';0.014;1.000;1.000
+'NotCoExistence(Create SW anomaly, Schedule intervention)';'NotCoExistence';'Create SW anomaly';'Schedule intervention';0.014;1.000;1.000
+'NotSuccession(Create SW anomaly, Take in charge ticket)';'NotSuccession';'Create SW anomaly';'Take in charge ticket';0.934;0.998;0.998
+'NotCoExistence(Create SW anomaly, Take in charge ticket)';'NotCoExistence';'Create SW anomaly';'Take in charge ticket';0.925;0.987;0.987
+'NotSuccession(Create SW anomaly, Wait)';'NotSuccession';'Create SW anomaly';'Wait';0.280;0.998;0.998
+'NotCoExistence(Create SW anomaly, Wait)';'NotCoExistence';'Create SW anomaly';'Wait';0.278;0.993;0.993
+'Absence(DUPLICATE)';'Absence';'DUPLICATE';;1.000;1.000;1.000
+'AtMostOne(DUPLICATE)';'AtMostOne';'DUPLICATE';;0.000;1.000;1.000
+'Precedence(Assign seriousness, DUPLICATE)';'Precedence';'DUPLICATE';'Assign seriousness';0.000;1.000;1.000
+'AlternatePrecedence(Assign seriousness, DUPLICATE)';'AlternatePrecedence';'DUPLICATE';'Assign seriousness';0.000;1.000;1.000
+'Precedence(Create SW anomaly, DUPLICATE)';'Precedence';'DUPLICATE';'Create SW anomaly';0.000;1.000;1.000
+'AlternatePrecedence(Create SW anomaly, DUPLICATE)';'AlternatePrecedence';'DUPLICATE';'Create SW anomaly';0.000;1.000;1.000
+'RespondedExistence(DUPLICATE, Assign seriousness)';'RespondedExistence';'DUPLICATE';'Assign seriousness';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, Assign seriousness)';'NotSuccession';'DUPLICATE';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(DUPLICATE, Assign seriousness)';'NotCoExistence';'DUPLICATE';'Assign seriousness';0.981;1.000;1.000
+'RespondedExistence(DUPLICATE, Closed)';'RespondedExistence';'DUPLICATE';'Closed';0.000;1.000;1.000
+'Response(DUPLICATE, Closed)';'Response';'DUPLICATE';'Closed';0.000;1.000;1.000
+'AlternateResponse(DUPLICATE, Closed)';'AlternateResponse';'DUPLICATE';'Closed';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, Closed)';'NotSuccession';'DUPLICATE';'Closed';0.995;1.000;1.000
+'NotCoExistence(DUPLICATE, Closed)';'NotCoExistence';'DUPLICATE';'Closed';0.995;1.000;1.000
+'RespondedExistence(DUPLICATE, Create SW anomaly)';'RespondedExistence';'DUPLICATE';'Create SW anomaly';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, Create SW anomaly)';'NotSuccession';'DUPLICATE';'Create SW anomaly';0.013;1.000;1.000
+'NotCoExistence(DUPLICATE, Create SW anomaly)';'NotCoExistence';'DUPLICATE';'Create SW anomaly';0.012;0.983;0.983
+'NotSuccession(DUPLICATE, INVALID)';'NotSuccession';'DUPLICATE';'INVALID';0.001;1.000;1.000
+'NotCoExistence(DUPLICATE, INVALID)';'NotCoExistence';'DUPLICATE';'INVALID';0.001;1.000;1.000
+'NotSuccession(DUPLICATE, Insert ticket)';'NotSuccession';'DUPLICATE';'Insert ticket';0.026;1.000;1.000
+'NotCoExistence(DUPLICATE, Insert ticket)';'NotCoExistence';'DUPLICATE';'Insert ticket';0.026;1.000;1.000
+'NotSuccession(DUPLICATE, RESOLVED)';'NotSuccession';'DUPLICATE';'RESOLVED';0.001;1.000;1.000
+'NotCoExistence(DUPLICATE, RESOLVED)';'NotCoExistence';'DUPLICATE';'RESOLVED';0.001;1.000;1.000
+'RespondedExistence(DUPLICATE, Require upgrade)';'RespondedExistence';'DUPLICATE';'Require upgrade';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, Require upgrade)';'NotSuccession';'DUPLICATE';'Require upgrade';0.022;1.000;1.000
+'NotCoExistence(DUPLICATE, Require upgrade)';'NotCoExistence';'DUPLICATE';'Require upgrade';0.022;0.990;0.990
+'NotSuccession(DUPLICATE, Resolve SW anomaly)';'NotSuccession';'DUPLICATE';'Resolve SW anomaly';0.002;1.000;1.000
+'NotCoExistence(DUPLICATE, Resolve SW anomaly)';'NotCoExistence';'DUPLICATE';'Resolve SW anomaly';0.002;1.000;1.000
+'RespondedExistence(DUPLICATE, Resolve ticket)';'RespondedExistence';'DUPLICATE';'Resolve ticket';0.000;1.000;1.000
+'Response(DUPLICATE, Resolve ticket)';'Response';'DUPLICATE';'Resolve ticket';0.000;1.000;1.000
+'AlternateResponse(DUPLICATE, Resolve ticket)';'AlternateResponse';'DUPLICATE';'Resolve ticket';0.000;1.000;1.000
+'ChainResponse(DUPLICATE, Resolve ticket)';'ChainResponse';'DUPLICATE';'Resolve ticket';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, Resolve ticket)';'NotSuccession';'DUPLICATE';'Resolve ticket';0.997;1.000;1.000
+'NotCoExistence(DUPLICATE, Resolve ticket)';'NotCoExistence';'DUPLICATE';'Resolve ticket';0.997;1.000;1.000
+'NotSuccession(DUPLICATE, Schedule intervention)';'NotSuccession';'DUPLICATE';'Schedule intervention';0.001;1.000;1.000
+'NotCoExistence(DUPLICATE, Schedule intervention)';'NotCoExistence';'DUPLICATE';'Schedule intervention';0.001;1.000;1.000
+'RespondedExistence(DUPLICATE, Take in charge ticket)';'RespondedExistence';'DUPLICATE';'Take in charge ticket';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, Take in charge ticket)';'NotSuccession';'DUPLICATE';'Take in charge ticket';0.936;1.000;1.000
+'NotCoExistence(DUPLICATE, Take in charge ticket)';'NotCoExistence';'DUPLICATE';'Take in charge ticket';0.935;1.000;1.000
+'RespondedExistence(DUPLICATE, VERIFIED)';'RespondedExistence';'DUPLICATE';'VERIFIED';0.000;1.000;1.000
+'NotSuccession(DUPLICATE, VERIFIED)';'NotSuccession';'DUPLICATE';'VERIFIED';0.001;1.000;1.000
+'NotSuccession(DUPLICATE, Wait)';'NotSuccession';'DUPLICATE';'Wait';0.270;1.000;1.000
+'NotCoExistence(DUPLICATE, Wait)';'NotCoExistence';'DUPLICATE';'Wait';0.270;1.000;1.000
+'Precedence(Require upgrade, DUPLICATE)';'Precedence';'DUPLICATE';'Require upgrade';0.000;1.000;1.000
+'AlternatePrecedence(Require upgrade, DUPLICATE)';'AlternatePrecedence';'DUPLICATE';'Require upgrade';0.000;1.000;1.000
+'Precedence(Take in charge ticket, DUPLICATE)';'Precedence';'DUPLICATE';'Take in charge ticket';0.000;1.000;1.000
+'AlternatePrecedence(Take in charge ticket, DUPLICATE)';'AlternatePrecedence';'DUPLICATE';'Take in charge ticket';0.000;1.000;1.000
+'Precedence(VERIFIED, DUPLICATE)';'Precedence';'DUPLICATE';'VERIFIED';0.000;1.000;1.000
+'AlternatePrecedence(VERIFIED, DUPLICATE)';'AlternatePrecedence';'DUPLICATE';'VERIFIED';0.000;1.000;1.000
+'ChainPrecedence(VERIFIED, DUPLICATE)';'ChainPrecedence';'DUPLICATE';'VERIFIED';0.000;1.000;1.000
+'Absence(INVALID)';'Absence';'INVALID';;1.000;1.000;1.000
+'AtMostOne(INVALID)';'AtMostOne';'INVALID';;0.000;1.000;1.000
+'Precedence(Assign seriousness, INVALID)';'Precedence';'INVALID';'Assign seriousness';0.000;1.000;1.000
+'AlternatePrecedence(Assign seriousness, INVALID)';'AlternatePrecedence';'INVALID';'Assign seriousness';0.000;1.000;1.000
+'Precedence(Create SW anomaly, INVALID)';'Precedence';'INVALID';'Create SW anomaly';0.000;1.000;1.000
+'AlternatePrecedence(Create SW anomaly, INVALID)';'AlternatePrecedence';'INVALID';'Create SW anomaly';0.000;1.000;1.000
+'RespondedExistence(INVALID, Assign seriousness)';'RespondedExistence';'INVALID';'Assign seriousness';0.000;1.000;1.000
+'NotSuccession(INVALID, Assign seriousness)';'NotSuccession';'INVALID';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(INVALID, Assign seriousness)';'NotCoExistence';'INVALID';'Assign seriousness';0.981;1.000;1.000
+'RespondedExistence(INVALID, Closed)';'RespondedExistence';'INVALID';'Closed';0.000;1.000;1.000
+'Response(INVALID, Closed)';'Response';'INVALID';'Closed';0.000;1.000;1.000
+'AlternateResponse(INVALID, Closed)';'AlternateResponse';'INVALID';'Closed';0.000;1.000;1.000
+'NotSuccession(INVALID, Closed)';'NotSuccession';'INVALID';'Closed';0.995;1.000;1.000
+'NotCoExistence(INVALID, Closed)';'NotCoExistence';'INVALID';'Closed';0.995;1.000;1.000
+'RespondedExistence(INVALID, Create SW anomaly)';'RespondedExistence';'INVALID';'Create SW anomaly';0.000;1.000;1.000
+'NotSuccession(INVALID, Create SW anomaly)';'NotSuccession';'INVALID';'Create SW anomaly';0.013;1.000;1.000
+'NotCoExistence(INVALID, Create SW anomaly)';'NotCoExistence';'INVALID';'Create SW anomaly';0.012;0.966;0.966
+'NotSuccession(INVALID, DUPLICATE)';'NotSuccession';'INVALID';'DUPLICATE';0.001;1.000;1.000
+'NotCoExistence(INVALID, DUPLICATE)';'NotCoExistence';'INVALID';'DUPLICATE';0.001;1.000;1.000
+'NotSuccession(INVALID, Insert ticket)';'NotSuccession';'INVALID';'Insert ticket';0.026;1.000;1.000
+'NotCoExistence(INVALID, Insert ticket)';'NotCoExistence';'INVALID';'Insert ticket';0.026;1.000;1.000
+'CoExistence(INVALID, RESOLVED)';'CoExistence';'INVALID';'RESOLVED';0.000;1.000;1.000
+'RespondedExistence(INVALID, RESOLVED)';'RespondedExistence';'INVALID';'RESOLVED';0.000;1.000;1.000
+'NotSuccession(INVALID, RESOLVED)';'NotSuccession';'INVALID';'RESOLVED';0.000;1.000;1.000
+'NotSuccession(INVALID, Require upgrade)';'NotSuccession';'INVALID';'Require upgrade';0.022;1.000;1.000
+'NotCoExistence(INVALID, Require upgrade)';'NotCoExistence';'INVALID';'Require upgrade';0.022;0.990;0.990
+'NotSuccession(INVALID, Resolve SW anomaly)';'NotSuccession';'INVALID';'Resolve SW anomaly';0.002;1.000;1.000
+'NotCoExistence(INVALID, Resolve SW anomaly)';'NotCoExistence';'INVALID';'Resolve SW anomaly';0.002;1.000;1.000
+'RespondedExistence(INVALID, Resolve ticket)';'RespondedExistence';'INVALID';'Resolve ticket';0.000;1.000;1.000
+'NotSuccession(INVALID, Resolve ticket)';'NotSuccession';'INVALID';'Resolve ticket';0.998;1.000;1.000
+'NotCoExistence(INVALID, Resolve ticket)';'NotCoExistence';'INVALID';'Resolve ticket';0.997;1.000;1.000
+'NotSuccession(INVALID, Schedule intervention)';'NotSuccession';'INVALID';'Schedule intervention';0.002;1.000;1.000
+'NotCoExistence(INVALID, Schedule intervention)';'NotCoExistence';'INVALID';'Schedule intervention';0.002;1.000;1.000
+'RespondedExistence(INVALID, Take in charge ticket)';'RespondedExistence';'INVALID';'Take in charge ticket';0.000;1.000;1.000
+'NotSuccession(INVALID, Take in charge ticket)';'NotSuccession';'INVALID';'Take in charge ticket';0.936;1.000;1.000
+'NotCoExistence(INVALID, Take in charge ticket)';'NotCoExistence';'INVALID';'Take in charge ticket';0.935;1.000;1.000
+'RespondedExistence(INVALID, VERIFIED)';'RespondedExistence';'INVALID';'VERIFIED';0.000;1.000;1.000
+'Response(INVALID, VERIFIED)';'Response';'INVALID';'VERIFIED';0.000;1.000;1.000
+'AlternateResponse(INVALID, VERIFIED)';'AlternateResponse';'INVALID';'VERIFIED';0.000;1.000;1.000
+'NotSuccession(INVALID, Wait)';'NotSuccession';'INVALID';'Wait';0.270;1.000;1.000
+'NotCoExistence(INVALID, Wait)';'NotCoExistence';'INVALID';'Wait';0.270;0.999;0.999
+'Precedence(RESOLVED, INVALID)';'Precedence';'INVALID';'RESOLVED';0.000;1.000;1.000
+'AlternatePrecedence(RESOLVED, INVALID)';'AlternatePrecedence';'INVALID';'RESOLVED';0.000;1.000;1.000
+'ChainPrecedence(RESOLVED, INVALID)';'ChainPrecedence';'INVALID';'RESOLVED';0.000;1.000;1.000
+'Precedence(Resolve ticket, INVALID)';'Precedence';'INVALID';'Resolve ticket';0.000;1.000;1.000
+'AlternatePrecedence(Resolve ticket, INVALID)';'AlternatePrecedence';'INVALID';'Resolve ticket';0.000;1.000;1.000
+'Precedence(Take in charge ticket, INVALID)';'Precedence';'INVALID';'Take in charge ticket';0.000;1.000;1.000
+'AlternatePrecedence(Take in charge ticket, INVALID)';'AlternatePrecedence';'INVALID';'Take in charge ticket';0.000;1.000;1.000
+'Absence(Insert ticket)';'Absence';'Insert ticket';;0.974;0.974;0.974
+'AtMostOne(Insert ticket)';'AtMostOne';'Insert ticket';;0.026;1.000;1.000
+'NotSuccession(Insert ticket, Assign seriousness)';'NotSuccession';'Insert ticket';'Assign seriousness';0.959;0.975;0.975
+'NotCoExistence(Insert ticket, Assign seriousness)';'NotCoExistence';'Insert ticket';'Assign seriousness';0.959;0.975;0.975
+'RespondedExistence(Insert ticket, Closed)';'RespondedExistence';'Insert ticket';'Closed';0.025;0.966;0.966
+'Response(Insert ticket, Closed)';'Response';'Insert ticket';'Closed';0.025;0.966;0.966
+'AlternateResponse(Insert ticket, Closed)';'AlternateResponse';'Insert ticket';'Closed';0.025;0.966;0.966
+'NotSuccession(Insert ticket, Closed)';'NotSuccession';'Insert ticket';'Closed';0.971;0.975;0.975
+'NotCoExistence(Insert ticket, Closed)';'NotCoExistence';'Insert ticket';'Closed';0.971;0.975;0.975
+'NotSuccession(Insert ticket, Create SW anomaly)';'NotSuccession';'Insert ticket';'Create SW anomaly';0.038;0.994;0.994
+'NotCoExistence(Insert ticket, Create SW anomaly)';'NotCoExistence';'Insert ticket';'Create SW anomaly';0.038;0.994;0.994
+'NotSuccession(Insert ticket, DUPLICATE)';'NotSuccession';'Insert ticket';'DUPLICATE';0.026;1.000;1.000
+'NotCoExistence(Insert ticket, DUPLICATE)';'NotCoExistence';'Insert ticket';'DUPLICATE';0.026;1.000;1.000
+'NotSuccession(Insert ticket, INVALID)';'NotSuccession';'Insert ticket';'INVALID';0.026;1.000;1.000
+'NotCoExistence(Insert ticket, INVALID)';'NotCoExistence';'Insert ticket';'INVALID';0.026;1.000;1.000
+'NotSuccession(Insert ticket, RESOLVED)';'NotSuccession';'Insert ticket';'RESOLVED';0.026;1.000;1.000
+'NotCoExistence(Insert ticket, RESOLVED)';'NotCoExistence';'Insert ticket';'RESOLVED';0.026;1.000;1.000
+'NotSuccession(Insert ticket, Require upgrade)';'NotSuccession';'Insert ticket';'Require upgrade';0.048;1.000;1.000
+'NotCoExistence(Insert ticket, Require upgrade)';'NotCoExistence';'Insert ticket';'Require upgrade';0.048;1.000;1.000
+'NotSuccession(Insert ticket, Resolve SW anomaly)';'NotSuccession';'Insert ticket';'Resolve SW anomaly';0.028;1.000;1.000
+'NotCoExistence(Insert ticket, Resolve SW anomaly)';'NotCoExistence';'Insert ticket';'Resolve SW anomaly';0.028;1.000;1.000
+'RespondedExistence(Insert ticket, Resolve ticket)';'RespondedExistence';'Insert ticket';'Resolve ticket';0.025;0.966;0.966
+'Response(Insert ticket, Resolve ticket)';'Response';'Insert ticket';'Resolve ticket';0.025;0.966;0.966
+'AlternateResponse(Insert ticket, Resolve ticket)';'AlternateResponse';'Insert ticket';'Resolve ticket';0.025;0.966;0.966
+'NotSuccession(Insert ticket, Resolve ticket)';'NotSuccession';'Insert ticket';'Resolve ticket';0.974;0.975;0.975
+'NotCoExistence(Insert ticket, Resolve ticket)';'NotCoExistence';'Insert ticket';'Resolve ticket';0.974;0.975;0.975
+'NotSuccession(Insert ticket, Schedule intervention)';'NotSuccession';'Insert ticket';'Schedule intervention';0.027;1.000;1.000
+'NotCoExistence(Insert ticket, Schedule intervention)';'NotCoExistence';'Insert ticket';'Schedule intervention';0.027;1.000;1.000
+'RespondedExistence(Insert ticket, Take in charge ticket)';'RespondedExistence';'Insert ticket';'Take in charge ticket';0.025;0.958;0.958
+'Response(Insert ticket, Take in charge ticket)';'Response';'Insert ticket';'Take in charge ticket';0.025;0.958;0.958
+'AlternateResponse(Insert ticket, Take in charge ticket)';'AlternateResponse';'Insert ticket';'Take in charge ticket';0.025;0.958;0.958
+'NotSuccession(Insert ticket, Take in charge ticket)';'NotSuccession';'Insert ticket';'Take in charge ticket';0.912;0.974;0.974
+'NotCoExistence(Insert ticket, Take in charge ticket)';'NotCoExistence';'Insert ticket';'Take in charge ticket';0.912;0.974;0.974
+'NotSuccession(Insert ticket, VERIFIED)';'NotSuccession';'Insert ticket';'VERIFIED';0.026;1.000;1.000
+'NotCoExistence(Insert ticket, VERIFIED)';'NotCoExistence';'Insert ticket';'VERIFIED';0.026;1.000;1.000
+'NotSuccession(Insert ticket, Wait)';'NotSuccession';'Insert ticket';'Wait';0.283;0.979;0.979
+'NotCoExistence(Insert ticket, Wait)';'NotCoExistence';'Insert ticket';'Wait';0.283;0.979;0.979
+'Absence(RESOLVED)';'Absence';'RESOLVED';;1.000;1.000;1.000
+'AtMostOne(RESOLVED)';'AtMostOne';'RESOLVED';;0.000;1.000;1.000
+'Precedence(Assign seriousness, RESOLVED)';'Precedence';'RESOLVED';'Assign seriousness';0.000;1.000;1.000
+'AlternatePrecedence(Assign seriousness, RESOLVED)';'AlternatePrecedence';'RESOLVED';'Assign seriousness';0.000;1.000;1.000
+'Precedence(Create SW anomaly, RESOLVED)';'Precedence';'RESOLVED';'Create SW anomaly';0.000;1.000;1.000
+'AlternatePrecedence(Create SW anomaly, RESOLVED)';'AlternatePrecedence';'RESOLVED';'Create SW anomaly';0.000;1.000;1.000
+'RespondedExistence(RESOLVED, Assign seriousness)';'RespondedExistence';'RESOLVED';'Assign seriousness';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Assign seriousness)';'NotSuccession';'RESOLVED';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(RESOLVED, Assign seriousness)';'NotCoExistence';'RESOLVED';'Assign seriousness';0.981;1.000;1.000
+'RespondedExistence(RESOLVED, Closed)';'RespondedExistence';'RESOLVED';'Closed';0.000;1.000;1.000
+'Response(RESOLVED, Closed)';'Response';'RESOLVED';'Closed';0.000;1.000;1.000
+'AlternateResponse(RESOLVED, Closed)';'AlternateResponse';'RESOLVED';'Closed';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Closed)';'NotSuccession';'RESOLVED';'Closed';0.995;1.000;1.000
+'NotCoExistence(RESOLVED, Closed)';'NotCoExistence';'RESOLVED';'Closed';0.995;1.000;1.000
+'RespondedExistence(RESOLVED, Create SW anomaly)';'RespondedExistence';'RESOLVED';'Create SW anomaly';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Create SW anomaly)';'NotSuccession';'RESOLVED';'Create SW anomaly';0.013;1.000;1.000
+'NotCoExistence(RESOLVED, Create SW anomaly)';'NotCoExistence';'RESOLVED';'Create SW anomaly';0.012;0.966;0.966
+'NotSuccession(RESOLVED, DUPLICATE)';'NotSuccession';'RESOLVED';'DUPLICATE';0.001;1.000;1.000
+'NotCoExistence(RESOLVED, DUPLICATE)';'NotCoExistence';'RESOLVED';'DUPLICATE';0.001;1.000;1.000
+'CoExistence(RESOLVED, INVALID)';'CoExistence';'RESOLVED';'INVALID';0.000;1.000;1.000
+'Succession(RESOLVED, INVALID)';'Succession';'RESOLVED';'INVALID';0.000;1.000;1.000
+'AlternateSuccession(RESOLVED, INVALID)';'AlternateSuccession';'RESOLVED';'INVALID';0.000;1.000;1.000
+'ChainSuccession(RESOLVED, INVALID)';'ChainSuccession';'RESOLVED';'INVALID';0.000;1.000;1.000
+'RespondedExistence(RESOLVED, INVALID)';'RespondedExistence';'RESOLVED';'INVALID';0.000;1.000;1.000
+'Response(RESOLVED, INVALID)';'Response';'RESOLVED';'INVALID';0.000;1.000;1.000
+'AlternateResponse(RESOLVED, INVALID)';'AlternateResponse';'RESOLVED';'INVALID';0.000;1.000;1.000
+'ChainResponse(RESOLVED, INVALID)';'ChainResponse';'RESOLVED';'INVALID';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Insert ticket)';'NotSuccession';'RESOLVED';'Insert ticket';0.026;1.000;1.000
+'NotCoExistence(RESOLVED, Insert ticket)';'NotCoExistence';'RESOLVED';'Insert ticket';0.026;1.000;1.000
+'NotSuccession(RESOLVED, Require upgrade)';'NotSuccession';'RESOLVED';'Require upgrade';0.022;1.000;1.000
+'NotCoExistence(RESOLVED, Require upgrade)';'NotCoExistence';'RESOLVED';'Require upgrade';0.022;0.990;0.990
+'NotSuccession(RESOLVED, Resolve SW anomaly)';'NotSuccession';'RESOLVED';'Resolve SW anomaly';0.002;1.000;1.000
+'NotCoExistence(RESOLVED, Resolve SW anomaly)';'NotCoExistence';'RESOLVED';'Resolve SW anomaly';0.002;1.000;1.000
+'RespondedExistence(RESOLVED, Resolve ticket)';'RespondedExistence';'RESOLVED';'Resolve ticket';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Resolve ticket)';'NotSuccession';'RESOLVED';'Resolve ticket';0.998;1.000;1.000
+'NotCoExistence(RESOLVED, Resolve ticket)';'NotCoExistence';'RESOLVED';'Resolve ticket';0.997;1.000;1.000
+'NotSuccession(RESOLVED, Schedule intervention)';'NotSuccession';'RESOLVED';'Schedule intervention';0.002;1.000;1.000
+'NotCoExistence(RESOLVED, Schedule intervention)';'NotCoExistence';'RESOLVED';'Schedule intervention';0.002;1.000;1.000
+'RespondedExistence(RESOLVED, Take in charge ticket)';'RespondedExistence';'RESOLVED';'Take in charge ticket';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Take in charge ticket)';'NotSuccession';'RESOLVED';'Take in charge ticket';0.936;1.000;1.000
+'NotCoExistence(RESOLVED, Take in charge ticket)';'NotCoExistence';'RESOLVED';'Take in charge ticket';0.935;1.000;1.000
+'RespondedExistence(RESOLVED, VERIFIED)';'RespondedExistence';'RESOLVED';'VERIFIED';0.000;1.000;1.000
+'Response(RESOLVED, VERIFIED)';'Response';'RESOLVED';'VERIFIED';0.000;1.000;1.000
+'AlternateResponse(RESOLVED, VERIFIED)';'AlternateResponse';'RESOLVED';'VERIFIED';0.000;1.000;1.000
+'NotSuccession(RESOLVED, Wait)';'NotSuccession';'RESOLVED';'Wait';0.270;1.000;1.000
+'NotCoExistence(RESOLVED, Wait)';'NotCoExistence';'RESOLVED';'Wait';0.270;0.999;0.999
+'Precedence(Resolve ticket, RESOLVED)';'Precedence';'RESOLVED';'Resolve ticket';0.000;1.000;1.000
+'AlternatePrecedence(Resolve ticket, RESOLVED)';'AlternatePrecedence';'RESOLVED';'Resolve ticket';0.000;1.000;1.000
+'ChainPrecedence(Resolve ticket, RESOLVED)';'ChainPrecedence';'RESOLVED';'Resolve ticket';0.000;1.000;1.000
+'Precedence(Take in charge ticket, RESOLVED)';'Precedence';'RESOLVED';'Take in charge ticket';0.000;1.000;1.000
+'AlternatePrecedence(Take in charge ticket, RESOLVED)';'AlternatePrecedence';'RESOLVED';'Take in charge ticket';0.000;1.000;1.000
+'Absence(Require upgrade)';'Absence';'Require upgrade';;0.978;0.978;0.978
+'Precedence(Assign seriousness, Require upgrade)';'Precedence';'Require upgrade';'Assign seriousness';0.022;1.000;1.000
+'RespondedExistence(Require upgrade, Assign seriousness)';'RespondedExistence';'Require upgrade';'Assign seriousness';0.022;1.000;1.000
+'NotSuccession(Require upgrade, Assign seriousness)';'NotSuccession';'Require upgrade';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(Require upgrade, Assign seriousness)';'NotCoExistence';'Require upgrade';'Assign seriousness';0.959;0.977;0.977
+'NotSuccession(Require upgrade, Closed)';'NotSuccession';'Require upgrade';'Closed';0.978;0.980;0.980
+'NotCoExistence(Require upgrade, Closed)';'NotCoExistence';'Require upgrade';'Closed';0.978;0.980;0.980
+'NotSuccession(Require upgrade, Create SW anomaly)';'NotSuccession';'Require upgrade';'Create SW anomaly';0.031;0.979;0.979
+'NotSuccession(Require upgrade, DUPLICATE)';'NotSuccession';'Require upgrade';'DUPLICATE';0.022;0.990;0.990
+'NotCoExistence(Require upgrade, DUPLICATE)';'NotCoExistence';'Require upgrade';'DUPLICATE';0.022;0.990;0.990
+'NotSuccession(Require upgrade, INVALID)';'NotSuccession';'Require upgrade';'INVALID';0.022;0.990;0.990
+'NotCoExistence(Require upgrade, INVALID)';'NotCoExistence';'Require upgrade';'INVALID';0.022;0.990;0.990
+'NotSuccession(Require upgrade, Insert ticket)';'NotSuccession';'Require upgrade';'Insert ticket';0.048;1.000;1.000
+'NotCoExistence(Require upgrade, Insert ticket)';'NotCoExistence';'Require upgrade';'Insert ticket';0.048;1.000;1.000
+'NotSuccession(Require upgrade, RESOLVED)';'NotSuccession';'Require upgrade';'RESOLVED';0.022;0.990;0.990
+'NotCoExistence(Require upgrade, RESOLVED)';'NotCoExistence';'Require upgrade';'RESOLVED';0.022;0.990;0.990
+'NotSuccession(Require upgrade, Resolve SW anomaly)';'NotSuccession';'Require upgrade';'Resolve SW anomaly';0.023;1.000;1.000
+'NotCoExistence(Require upgrade, Resolve SW anomaly)';'NotCoExistence';'Require upgrade';'Resolve SW anomaly';0.022;0.962;0.962
+'RespondedExistence(Require upgrade, Resolve ticket)';'RespondedExistence';'Require upgrade';'Resolve ticket';0.022;0.971;0.971
+'Response(Require upgrade, Resolve ticket)';'Response';'Require upgrade';'Resolve ticket';0.022;0.971;0.971
+'NotSuccession(Require upgrade, Resolve ticket)';'NotSuccession';'Require upgrade';'Resolve ticket';0.977;0.978;0.978
+'NotCoExistence(Require upgrade, Resolve ticket)';'NotCoExistence';'Require upgrade';'Resolve ticket';0.977;0.978;0.978
+'NotSuccession(Require upgrade, Schedule intervention)';'NotSuccession';'Require upgrade';'Schedule intervention';0.023;1.000;1.000
+'NotCoExistence(Require upgrade, Schedule intervention)';'NotCoExistence';'Require upgrade';'Schedule intervention';0.023;1.000;1.000
+'NotSuccession(Require upgrade, Take in charge ticket)';'NotSuccession';'Require upgrade';'Take in charge ticket';0.937;0.999;0.999
+'NotCoExistence(Require upgrade, Take in charge ticket)';'NotCoExistence';'Require upgrade';'Take in charge ticket';0.918;0.979;0.979
+'NotSuccession(Require upgrade, VERIFIED)';'NotSuccession';'Require upgrade';'VERIFIED';0.022;0.981;0.981
+'NotCoExistence(Require upgrade, VERIFIED)';'NotCoExistence';'Require upgrade';'VERIFIED';0.022;0.981;0.981
+'NotSuccession(Require upgrade, Wait)';'NotSuccession';'Require upgrade';'Wait';0.286;0.992;0.992
+'NotCoExistence(Require upgrade, Wait)';'NotCoExistence';'Require upgrade';'Wait';0.284;0.986;0.986
+'Absence(Resolve SW anomaly)';'Absence';'Resolve SW anomaly';;0.998;0.998;0.998
+'NotSuccession(Resolve SW anomaly, Assign seriousness)';'NotSuccession';'Resolve SW anomaly';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, Assign seriousness)';'NotCoExistence';'Resolve SW anomaly';'Assign seriousness';0.980;0.998;0.998
+'NotSuccession(Resolve SW anomaly, Closed)';'NotSuccession';'Resolve SW anomaly';'Closed';0.995;0.999;0.999
+'NotCoExistence(Resolve SW anomaly, Closed)';'NotCoExistence';'Resolve SW anomaly';'Closed';0.995;0.999;0.999
+'NotSuccession(Resolve SW anomaly, Create SW anomaly)';'NotSuccession';'Resolve SW anomaly';'Create SW anomaly';0.013;0.983;0.983
+'NotSuccession(Resolve SW anomaly, DUPLICATE)';'NotSuccession';'Resolve SW anomaly';'DUPLICATE';0.002;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, DUPLICATE)';'NotCoExistence';'Resolve SW anomaly';'DUPLICATE';0.002;1.000;1.000
+'NotSuccession(Resolve SW anomaly, INVALID)';'NotSuccession';'Resolve SW anomaly';'INVALID';0.002;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, INVALID)';'NotCoExistence';'Resolve SW anomaly';'INVALID';0.002;1.000;1.000
+'NotSuccession(Resolve SW anomaly, Insert ticket)';'NotSuccession';'Resolve SW anomaly';'Insert ticket';0.028;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, Insert ticket)';'NotCoExistence';'Resolve SW anomaly';'Insert ticket';0.028;1.000;1.000
+'NotSuccession(Resolve SW anomaly, RESOLVED)';'NotSuccession';'Resolve SW anomaly';'RESOLVED';0.002;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, RESOLVED)';'NotCoExistence';'Resolve SW anomaly';'RESOLVED';0.002;1.000;1.000
+'NotSuccession(Resolve SW anomaly, Require upgrade)';'NotSuccession';'Resolve SW anomaly';'Require upgrade';0.022;0.962;0.962
+'NotCoExistence(Resolve SW anomaly, Require upgrade)';'NotCoExistence';'Resolve SW anomaly';'Require upgrade';0.022;0.962;0.962
+'NotSuccession(Resolve SW anomaly, Resolve ticket)';'NotSuccession';'Resolve SW anomaly';'Resolve ticket';0.996;0.998;0.998
+'NotCoExistence(Resolve SW anomaly, Resolve ticket)';'NotCoExistence';'Resolve SW anomaly';'Resolve ticket';0.996;0.998;0.998
+'NotSuccession(Resolve SW anomaly, Schedule intervention)';'NotSuccession';'Resolve SW anomaly';'Schedule intervention';0.003;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, Schedule intervention)';'NotCoExistence';'Resolve SW anomaly';'Schedule intervention';0.003;1.000;1.000
+'NotSuccession(Resolve SW anomaly, Take in charge ticket)';'NotSuccession';'Resolve SW anomaly';'Take in charge ticket';0.936;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, Take in charge ticket)';'NotCoExistence';'Resolve SW anomaly';'Take in charge ticket';0.935;0.999;0.999
+'NotSuccession(Resolve SW anomaly, VERIFIED)';'NotSuccession';'Resolve SW anomaly';'VERIFIED';0.002;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, VERIFIED)';'NotCoExistence';'Resolve SW anomaly';'VERIFIED';0.002;1.000;1.000
+'NotSuccession(Resolve SW anomaly, Wait)';'NotSuccession';'Resolve SW anomaly';'Wait';0.271;1.000;1.000
+'NotCoExistence(Resolve SW anomaly, Wait)';'NotCoExistence';'Resolve SW anomaly';'Wait';0.271;1.000;1.000
+'Participation(Resolve ticket)';'Participation';'Resolve ticket';;0.998;0.998;0.998
+'Precedence(Assign seriousness, Resolve ticket)';'Precedence';'Resolve ticket';'Assign seriousness';0.980;0.982;0.982
+'CoExistence(Resolve ticket, Assign seriousness)';'CoExistence';'Resolve ticket';'Assign seriousness';0.980;0.981;0.981
+'RespondedExistence(Resolve ticket, Assign seriousness)';'RespondedExistence';'Resolve ticket';'Assign seriousness';0.980;0.982;0.982
+'NotSuccession(Resolve ticket, Assign seriousness)';'NotSuccession';'Resolve ticket';'Assign seriousness';0.999;1.000;1.000
+'CoExistence(Resolve ticket, Closed)';'CoExistence';'Resolve ticket';'Closed';0.995;0.998;0.998
+'Succession(Resolve ticket, Closed)';'Succession';'Resolve ticket';'Closed';0.995;0.998;0.998
+'RespondedExistence(Resolve ticket, Closed)';'RespondedExistence';'Resolve ticket';'Closed';0.995;0.998;0.998
+'Response(Resolve ticket, Closed)';'Response';'Resolve ticket';'Closed';0.995;0.998;0.998
+'NotSuccession(Resolve ticket, Create SW anomaly)';'NotSuccession';'Resolve ticket';'Create SW anomaly';0.997;0.998;0.998
+'NotCoExistence(Resolve ticket, Create SW anomaly)';'NotCoExistence';'Resolve ticket';'Create SW anomaly';0.986;0.988;0.988
+'NotSuccession(Resolve ticket, DUPLICATE)';'NotSuccession';'Resolve ticket';'DUPLICATE';0.998;1.000;1.000
+'NotCoExistence(Resolve ticket, DUPLICATE)';'NotCoExistence';'Resolve ticket';'DUPLICATE';0.997;1.000;1.000
+'NotSuccession(Resolve ticket, INVALID)';'NotSuccession';'Resolve ticket';'INVALID';0.997;1.000;1.000
+'NotCoExistence(Resolve ticket, INVALID)';'NotCoExistence';'Resolve ticket';'INVALID';0.997;1.000;1.000
+'NotSuccession(Resolve ticket, Insert ticket)';'NotSuccession';'Resolve ticket';'Insert ticket';0.998;1.000;1.000
+'NotCoExistence(Resolve ticket, Insert ticket)';'NotCoExistence';'Resolve ticket';'Insert ticket';0.974;0.975;0.975
+'NotSuccession(Resolve ticket, RESOLVED)';'NotSuccession';'Resolve ticket';'RESOLVED';0.997;1.000;1.000
+'NotCoExistence(Resolve ticket, RESOLVED)';'NotCoExistence';'Resolve ticket';'RESOLVED';0.997;1.000;1.000
+'NotSuccession(Resolve ticket, Require upgrade)';'NotSuccession';'Resolve ticket';'Require upgrade';0.998;1.000;1.000
+'NotCoExistence(Resolve ticket, Require upgrade)';'NotCoExistence';'Resolve ticket';'Require upgrade';0.977;0.978;0.978
+'NotSuccession(Resolve ticket, Resolve SW anomaly)';'NotSuccession';'Resolve ticket';'Resolve SW anomaly';0.998;1.000;1.000
+'NotCoExistence(Resolve ticket, Resolve SW anomaly)';'NotCoExistence';'Resolve ticket';'Resolve SW anomaly';0.996;0.998;0.998
+'NotSuccession(Resolve ticket, Schedule intervention)';'NotSuccession';'Resolve ticket';'Schedule intervention';0.998;1.000;1.000
+'NotCoExistence(Resolve ticket, Schedule intervention)';'NotCoExistence';'Resolve ticket';'Schedule intervention';0.997;0.999;0.999
+'NotSuccession(Resolve ticket, Take in charge ticket)';'NotSuccession';'Resolve ticket';'Take in charge ticket';0.967;0.967;0.967
+'NotSuccession(Resolve ticket, VERIFIED)';'NotSuccession';'Resolve ticket';'VERIFIED';0.997;1.000;1.000
+'NotCoExistence(Resolve ticket, VERIFIED)';'NotCoExistence';'Resolve ticket';'VERIFIED';0.997;0.999;0.999
+'NotSuccession(Resolve ticket, Wait)';'NotSuccession';'Resolve ticket';'Wait';0.988;0.988;0.988
+'Absence(Schedule intervention)';'Absence';'Schedule intervention';;0.999;0.999;0.999
+'AtMostOne(Schedule intervention)';'AtMostOne';'Schedule intervention';;0.001;1.000;1.000
+'Precedence(Assign seriousness, Schedule intervention)';'Precedence';'Schedule intervention';'Assign seriousness';0.001;1.000;1.000
+'AlternatePrecedence(Assign seriousness, Schedule intervention)';'AlternatePrecedence';'Schedule intervention';'Assign seriousness';0.001;1.000;1.000
+'RespondedExistence(Schedule intervention, Assign seriousness)';'RespondedExistence';'Schedule intervention';'Assign seriousness';0.001;1.000;1.000
+'NotSuccession(Schedule intervention, Assign seriousness)';'NotSuccession';'Schedule intervention';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(Schedule intervention, Assign seriousness)';'NotCoExistence';'Schedule intervention';'Assign seriousness';0.981;0.999;0.999
+'RespondedExistence(Schedule intervention, Closed)';'RespondedExistence';'Schedule intervention';'Closed';0.001;1.000;1.000
+'Response(Schedule intervention, Closed)';'Response';'Schedule intervention';'Closed';0.001;1.000;1.000
+'AlternateResponse(Schedule intervention, Closed)';'AlternateResponse';'Schedule intervention';'Closed';0.001;1.000;1.000
+'NotSuccession(Schedule intervention, Closed)';'NotSuccession';'Schedule intervention';'Closed';0.994;0.999;0.999
+'NotCoExistence(Schedule intervention, Closed)';'NotCoExistence';'Schedule intervention';'Closed';0.994;0.999;0.999
+'NotSuccession(Schedule intervention, Create SW anomaly)';'NotSuccession';'Schedule intervention';'Create SW anomaly';0.014;1.000;1.000
+'NotCoExistence(Schedule intervention, Create SW anomaly)';'NotCoExistence';'Schedule intervention';'Create SW anomaly';0.014;1.000;1.000
+'NotSuccession(Schedule intervention, DUPLICATE)';'NotSuccession';'Schedule intervention';'DUPLICATE';0.001;1.000;1.000
+'NotCoExistence(Schedule intervention, DUPLICATE)';'NotCoExistence';'Schedule intervention';'DUPLICATE';0.001;1.000;1.000
+'NotSuccession(Schedule intervention, INVALID)';'NotSuccession';'Schedule intervention';'INVALID';0.002;1.000;1.000
+'NotCoExistence(Schedule intervention, INVALID)';'NotCoExistence';'Schedule intervention';'INVALID';0.002;1.000;1.000
+'NotSuccession(Schedule intervention, Insert ticket)';'NotSuccession';'Schedule intervention';'Insert ticket';0.027;1.000;1.000
+'NotCoExistence(Schedule intervention, Insert ticket)';'NotCoExistence';'Schedule intervention';'Insert ticket';0.027;1.000;1.000
+'NotSuccession(Schedule intervention, RESOLVED)';'NotSuccession';'Schedule intervention';'RESOLVED';0.002;1.000;1.000
+'NotCoExistence(Schedule intervention, RESOLVED)';'NotCoExistence';'Schedule intervention';'RESOLVED';0.002;1.000;1.000
+'NotSuccession(Schedule intervention, Require upgrade)';'NotSuccession';'Schedule intervention';'Require upgrade';0.023;1.000;1.000
+'NotCoExistence(Schedule intervention, Require upgrade)';'NotCoExistence';'Schedule intervention';'Require upgrade';0.023;1.000;1.000
+'NotSuccession(Schedule intervention, Resolve SW anomaly)';'NotSuccession';'Schedule intervention';'Resolve SW anomaly';0.003;1.000;1.000
+'NotCoExistence(Schedule intervention, Resolve SW anomaly)';'NotCoExistence';'Schedule intervention';'Resolve SW anomaly';0.003;1.000;1.000
+'RespondedExistence(Schedule intervention, Resolve ticket)';'RespondedExistence';'Schedule intervention';'Resolve ticket';0.001;1.000;1.000
+'Response(Schedule intervention, Resolve ticket)';'Response';'Schedule intervention';'Resolve ticket';0.001;1.000;1.000
+'AlternateResponse(Schedule intervention, Resolve ticket)';'AlternateResponse';'Schedule intervention';'Resolve ticket';0.001;1.000;1.000
+'NotSuccession(Schedule intervention, Resolve ticket)';'NotSuccession';'Schedule intervention';'Resolve ticket';0.997;0.999;0.999
+'NotCoExistence(Schedule intervention, Resolve ticket)';'NotCoExistence';'Schedule intervention';'Resolve ticket';0.997;0.999;0.999
+'RespondedExistence(Schedule intervention, Take in charge ticket)';'RespondedExistence';'Schedule intervention';'Take in charge ticket';0.001;1.000;1.000
+'NotSuccession(Schedule intervention, Take in charge ticket)';'NotSuccession';'Schedule intervention';'Take in charge ticket';0.935;1.000;1.000
+'NotCoExistence(Schedule intervention, Take in charge ticket)';'NotCoExistence';'Schedule intervention';'Take in charge ticket';0.934;0.999;0.999
+'NotSuccession(Schedule intervention, VERIFIED)';'NotSuccession';'Schedule intervention';'VERIFIED';0.002;1.000;1.000
+'NotCoExistence(Schedule intervention, VERIFIED)';'NotCoExistence';'Schedule intervention';'VERIFIED';0.002;1.000;1.000
+'NotSuccession(Schedule intervention, Wait)';'NotSuccession';'Schedule intervention';'Wait';0.270;0.999;0.999
+'NotCoExistence(Schedule intervention, Wait)';'NotCoExistence';'Schedule intervention';'Wait';0.270;0.999;0.999
+'Precedence(Take in charge ticket, Schedule intervention)';'Precedence';'Schedule intervention';'Take in charge ticket';0.001;1.000;1.000
+'AlternatePrecedence(Take in charge ticket, Schedule intervention)';'AlternatePrecedence';'Schedule intervention';'Take in charge ticket';0.001;1.000;1.000
+'ChainPrecedence(Take in charge ticket, Schedule intervention)';'ChainPrecedence';'Schedule intervention';'Take in charge ticket';0.001;1.000;1.000
+'Precedence(Assign seriousness, Take in charge ticket)';'Precedence';'Take in charge ticket';'Assign seriousness';0.919;0.982;0.982
+'RespondedExistence(Take in charge ticket, Assign seriousness)';'RespondedExistence';'Take in charge ticket';'Assign seriousness';0.919;0.982;0.982
+'NotSuccession(Take in charge ticket, Assign seriousness)';'NotSuccession';'Take in charge ticket';'Assign seriousness';0.998;1.000;1.000
+'RespondedExistence(Take in charge ticket, Closed)';'RespondedExistence';'Take in charge ticket';'Closed';0.932;0.996;0.996
+'Response(Take in charge ticket, Closed)';'Response';'Take in charge ticket';'Closed';0.932;0.996;0.996
+'NotSuccession(Take in charge ticket, Create SW anomaly)';'NotSuccession';'Take in charge ticket';'Create SW anomaly';0.925;0.987;0.987
+'NotCoExistence(Take in charge ticket, Create SW anomaly)';'NotCoExistence';'Take in charge ticket';'Create SW anomaly';0.925;0.987;0.987
+'NotSuccession(Take in charge ticket, DUPLICATE)';'NotSuccession';'Take in charge ticket';'DUPLICATE';0.935;1.000;1.000
+'NotCoExistence(Take in charge ticket, DUPLICATE)';'NotCoExistence';'Take in charge ticket';'DUPLICATE';0.935;1.000;1.000
+'NotSuccession(Take in charge ticket, INVALID)';'NotSuccession';'Take in charge ticket';'INVALID';0.935;1.000;1.000
+'NotCoExistence(Take in charge ticket, INVALID)';'NotCoExistence';'Take in charge ticket';'INVALID';0.935;1.000;1.000
+'NotSuccession(Take in charge ticket, Insert ticket)';'NotSuccession';'Take in charge ticket';'Insert ticket';0.937;1.000;1.000
+'NotCoExistence(Take in charge ticket, Insert ticket)';'NotCoExistence';'Take in charge ticket';'Insert ticket';0.912;0.974;0.974
+'NotSuccession(Take in charge ticket, RESOLVED)';'NotSuccession';'Take in charge ticket';'RESOLVED';0.935;1.000;1.000
+'NotCoExistence(Take in charge ticket, RESOLVED)';'NotCoExistence';'Take in charge ticket';'RESOLVED';0.935;1.000;1.000
+'NotSuccession(Take in charge ticket, Require upgrade)';'NotSuccession';'Take in charge ticket';'Require upgrade';0.918;0.979;0.979
+'NotCoExistence(Take in charge ticket, Require upgrade)';'NotCoExistence';'Take in charge ticket';'Require upgrade';0.918;0.979;0.979
+'NotSuccession(Take in charge ticket, Resolve SW anomaly)';'NotSuccession';'Take in charge ticket';'Resolve SW anomaly';0.935;0.999;0.999
+'NotCoExistence(Take in charge ticket, Resolve SW anomaly)';'NotCoExistence';'Take in charge ticket';'Resolve SW anomaly';0.935;0.999;0.999
+'RespondedExistence(Take in charge ticket, Resolve ticket)';'RespondedExistence';'Take in charge ticket';'Resolve ticket';0.934;0.998;0.998
+'Response(Take in charge ticket, Resolve ticket)';'Response';'Take in charge ticket';'Resolve ticket';0.934;0.998;0.998
+'NotSuccession(Take in charge ticket, Schedule intervention)';'NotSuccession';'Take in charge ticket';'Schedule intervention';0.934;0.999;0.999
+'NotCoExistence(Take in charge ticket, Schedule intervention)';'NotCoExistence';'Take in charge ticket';'Schedule intervention';0.934;0.999;0.999
+'NotSuccession(Take in charge ticket, VERIFIED)';'NotSuccession';'Take in charge ticket';'VERIFIED';0.935;0.999;0.999
+'NotCoExistence(Take in charge ticket, VERIFIED)';'NotCoExistence';'Take in charge ticket';'VERIFIED';0.935;0.999;0.999
+'Absence(VERIFIED)';'Absence';'VERIFIED';;0.999;0.999;0.999
+'AtMostOne(VERIFIED)';'AtMostOne';'VERIFIED';;0.001;1.000;1.000
+'Precedence(Assign seriousness, VERIFIED)';'Precedence';'VERIFIED';'Assign seriousness';0.001;1.000;1.000
+'AlternatePrecedence(Assign seriousness, VERIFIED)';'AlternatePrecedence';'VERIFIED';'Assign seriousness';0.001;1.000;1.000
+'Precedence(Create SW anomaly, VERIFIED)';'Precedence';'VERIFIED';'Create SW anomaly';0.001;1.000;1.000
+'AlternatePrecedence(Create SW anomaly, VERIFIED)';'AlternatePrecedence';'VERIFIED';'Create SW anomaly';0.001;1.000;1.000
+'Precedence(Take in charge ticket, VERIFIED)';'Precedence';'VERIFIED';'Take in charge ticket';0.001;1.000;1.000
+'AlternatePrecedence(Take in charge ticket, VERIFIED)';'AlternatePrecedence';'VERIFIED';'Take in charge ticket';0.001;1.000;1.000
+'RespondedExistence(VERIFIED, Assign seriousness)';'RespondedExistence';'VERIFIED';'Assign seriousness';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Assign seriousness)';'NotSuccession';'VERIFIED';'Assign seriousness';0.982;1.000;1.000
+'NotCoExistence(VERIFIED, Assign seriousness)';'NotCoExistence';'VERIFIED';'Assign seriousness';0.981;0.999;0.999
+'RespondedExistence(VERIFIED, Closed)';'RespondedExistence';'VERIFIED';'Closed';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Closed)';'NotSuccession';'VERIFIED';'Closed';0.995;1.000;1.000
+'NotCoExistence(VERIFIED, Closed)';'NotCoExistence';'VERIFIED';'Closed';0.995;0.999;0.999
+'RespondedExistence(VERIFIED, Create SW anomaly)';'RespondedExistence';'VERIFIED';'Create SW anomaly';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Create SW anomaly)';'NotSuccession';'VERIFIED';'Create SW anomaly';0.013;1.000;1.000
+'NotSuccession(VERIFIED, INVALID)';'NotSuccession';'VERIFIED';'INVALID';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Insert ticket)';'NotSuccession';'VERIFIED';'Insert ticket';0.026;1.000;1.000
+'NotCoExistence(VERIFIED, Insert ticket)';'NotCoExistence';'VERIFIED';'Insert ticket';0.026;1.000;1.000
+'NotSuccession(VERIFIED, RESOLVED)';'NotSuccession';'VERIFIED';'RESOLVED';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Require upgrade)';'NotSuccession';'VERIFIED';'Require upgrade';0.022;1.000;1.000
+'NotCoExistence(VERIFIED, Require upgrade)';'NotCoExistence';'VERIFIED';'Require upgrade';0.022;0.981;0.981
+'NotSuccession(VERIFIED, Resolve SW anomaly)';'NotSuccession';'VERIFIED';'Resolve SW anomaly';0.002;1.000;1.000
+'NotCoExistence(VERIFIED, Resolve SW anomaly)';'NotCoExistence';'VERIFIED';'Resolve SW anomaly';0.002;1.000;1.000
+'RespondedExistence(VERIFIED, Resolve ticket)';'RespondedExistence';'VERIFIED';'Resolve ticket';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Resolve ticket)';'NotSuccession';'VERIFIED';'Resolve ticket';0.997;1.000;1.000
+'NotCoExistence(VERIFIED, Resolve ticket)';'NotCoExistence';'VERIFIED';'Resolve ticket';0.997;0.999;0.999
+'NotSuccession(VERIFIED, Schedule intervention)';'NotSuccession';'VERIFIED';'Schedule intervention';0.002;1.000;1.000
+'NotCoExistence(VERIFIED, Schedule intervention)';'NotCoExistence';'VERIFIED';'Schedule intervention';0.002;1.000;1.000
+'RespondedExistence(VERIFIED, Take in charge ticket)';'RespondedExistence';'VERIFIED';'Take in charge ticket';0.001;1.000;1.000
+'NotSuccession(VERIFIED, Take in charge ticket)';'NotSuccession';'VERIFIED';'Take in charge ticket';0.936;1.000;1.000
+'NotCoExistence(VERIFIED, Take in charge ticket)';'NotCoExistence';'VERIFIED';'Take in charge ticket';0.935;0.999;0.999
+'NotSuccession(VERIFIED, Wait)';'NotSuccession';'VERIFIED';'Wait';0.270;1.000;1.000
+'NotCoExistence(VERIFIED, Wait)';'NotCoExistence';'VERIFIED';'Wait';0.270;0.999;0.999
+'Precedence(Assign seriousness, Wait)';'Precedence';'Wait';'Assign seriousness';0.262;0.972;0.972
+'RespondedExistence(Wait, Assign seriousness)';'RespondedExistence';'Wait';'Assign seriousness';0.262;0.972;0.972
+'NotSuccession(Wait, Assign seriousness)';'NotSuccession';'Wait';'Assign seriousness';0.989;1.000;1.000
+'RespondedExistence(Wait, Closed)';'RespondedExistence';'Wait';'Closed';0.267;0.991;0.991
+'Response(Wait, Closed)';'Response';'Wait';'Closed';0.267;0.991;0.991
+'NotSuccession(Wait, Create SW anomaly)';'NotSuccession';'Wait';'Create SW anomaly';0.279;0.995;0.995
+'NotCoExistence(Wait, Create SW anomaly)';'NotCoExistence';'Wait';'Create SW anomaly';0.278;0.993;0.993
+'NotSuccession(Wait, DUPLICATE)';'NotSuccession';'Wait';'DUPLICATE';0.270;1.000;1.000
+'NotCoExistence(Wait, DUPLICATE)';'NotCoExistence';'Wait';'DUPLICATE';0.270;1.000;1.000
+'NotSuccession(Wait, INVALID)';'NotSuccession';'Wait';'INVALID';0.270;0.999;0.999
+'NotCoExistence(Wait, INVALID)';'NotCoExistence';'Wait';'INVALID';0.270;0.999;0.999
+'NotSuccession(Wait, Insert ticket)';'NotSuccession';'Wait';'Insert ticket';0.289;1.000;1.000
+'NotCoExistence(Wait, Insert ticket)';'NotCoExistence';'Wait';'Insert ticket';0.283;0.979;0.979
+'NotSuccession(Wait, RESOLVED)';'NotSuccession';'Wait';'RESOLVED';0.270;0.999;0.999
+'NotCoExistence(Wait, RESOLVED)';'NotCoExistence';'Wait';'RESOLVED';0.270;0.999;0.999
+'NotSuccession(Wait, Require upgrade)';'NotSuccession';'Wait';'Require upgrade';0.285;0.992;0.992
+'NotCoExistence(Wait, Require upgrade)';'NotCoExistence';'Wait';'Require upgrade';0.284;0.986;0.986
+'NotSuccession(Wait, Resolve SW anomaly)';'NotSuccession';'Wait';'Resolve SW anomaly';0.271;1.000;1.000
+'NotCoExistence(Wait, Resolve SW anomaly)';'NotCoExistence';'Wait';'Resolve SW anomaly';0.271;1.000;1.000
+'RespondedExistence(Wait, Resolve ticket)';'RespondedExistence';'Wait';'Resolve ticket';0.268;0.993;0.993
+'Response(Wait, Resolve ticket)';'Response';'Wait';'Resolve ticket';0.268;0.993;0.993
+'NotSuccession(Wait, Schedule intervention)';'NotSuccession';'Wait';'Schedule intervention';0.271;1.000;1.000
+'NotCoExistence(Wait, Schedule intervention)';'NotCoExistence';'Wait';'Schedule intervention';0.270;0.999;0.999
+'RespondedExistence(Wait, Take in charge ticket)';'RespondedExistence';'Wait';'Take in charge ticket';0.263;0.974;0.974
+'NotSuccession(Wait, VERIFIED)';'NotSuccession';'Wait';'VERIFIED';0.270;0.999;0.999
+'NotCoExistence(Wait, VERIFIED)';'NotCoExistence';'Wait';'VERIFIED';0.270;0.999;0.999
