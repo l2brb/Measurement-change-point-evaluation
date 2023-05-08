@@ -1,0 +1,2496 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<string key="lifecycle:model" value="standard"/>
+	<string key="creator" value="Fluxicon Disco"/>
+	<string key="library" value="Fluxicon Octane"/>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2673"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T10:04:02+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T15:21:06+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T15:31:33+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T10:12:19+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 3"/>
+		<int key="variant-index" value="3"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case376"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T10:50:27+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-05T10:35:13+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-05T10:35:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T08:11:07+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T08:11:14+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T11:00:19+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4243"/>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T13:58:19+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T15:12:20+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T15:12:36+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-04T15:19:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-18T15:20:30+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case591"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-05T12:56:02+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-05T14:39:36+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T07:52:31+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T14:39:13+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-05T13:00:17+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 20"/>
+		<int key="variant-index" value="20"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case301"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T11:05:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T13:01:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T13:27:07+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T14:36:41+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T16:06:08+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-07T12:17:30+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-07T12:17:43+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-10T11:02:00+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 63"/>
+		<int key="variant-index" value="63"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4375"/>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T15:48:29+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-10T14:22:20+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-10T16:10:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-10T16:10:39+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T12:21:26+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T09:53:54+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T08:44:01+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T08:44:07+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-01T08:44:20+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case113"/>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-06T15:51:48+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T10:23:15+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T13:48:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T14:11:28+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-09T14:11:39+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case9"/>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-07T13:02:21+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-07T13:02:34+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T10:26:28+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T15:35:44+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-09T15:35:56+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4098"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-10T13:50:22+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T12:16:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-26T13:32:33+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-10T14:00:39+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 23"/>
+		<int key="variant-index" value="23"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2206"/>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T09:41:45+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T14:04:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T13:00:45+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T07:47:05+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T07:47:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 21"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 21"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-15T09:44:52+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 9"/>
+		<int key="variant-index" value="9"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2301"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T13:28:20+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T10:07:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T10:30:50+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:53:29+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-14T10:46:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-29T10:46:52+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 4"/>
+		<int key="variant-index" value="4"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4497"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T13:43:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T16:24:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T10:28:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T11:20:29+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-11T13:50:25+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4296"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T14:05:51+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T14:06:08+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-11T15:16:23+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-24T14:10:24+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 37"/>
+		<int key="variant-index" value="37"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3196"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T10:21:25+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T10:22:46+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T14:23:05+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T14:23:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T08:48:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T08:49:10+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-01T08:49:30+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 41"/>
+		<int key="variant-index" value="41"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2845"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T10:47:22+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T15:00:58+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T16:25:41+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T10:58:03+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T15:35:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-26T13:43:36+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-26T13:43:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-25T13:44:10+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2114"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T14:42:07+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T14:56:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Create SW anomaly"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Create SW anomaly"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T14:57:34+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-21T08:17:23+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-06T08:17:34+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3603"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T15:12:50+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T14:52:13+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T14:52:26+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-12T15:20:30+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 37"/>
+		<int key="variant-index" value="37"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2418"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T15:25:04+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T15:25:46+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T15:25:58+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-12T15:26:17+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-11T13:44:10+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-14T14:32:38+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-29T14:32:52+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2320"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T08:52:29+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T08:52:41+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T09:09:42+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T09:00:30+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 20"/>
+		<int key="variant-index" value="20"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1044"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T14:45:13+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T16:21:00+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T17:10:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T08:21:15+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T08:44:56+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T09:26:17+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T09:28:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-26T14:50:32+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 75"/>
+		<int key="variant-index" value="75"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2828"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-13T15:02:27+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T17:22:11+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T17:22:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T08:49:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T09:23:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T09:25:58+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-15T15:10:12+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 105"/>
+		<int key="variant-index" value="105"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3590"/>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-14T08:04:18+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T07:57:30+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T09:29:03+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Schedule intervention"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Schedule intervention"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T12:07:05+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-03T13:10:37+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-18T13:10:49+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case294"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-14T12:55:15+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-14T13:02:16+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-14T13:24:16+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-20T13:00:45+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1853"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T08:15:30+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-01T15:54:31+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-07T10:32:29+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-07T10:32:55+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 12"/>
+		<int key="variant-index" value="12"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2288"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T08:17:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-31T08:30:15+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-03T14:53:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-03T14:53:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-18T14:54:10+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2340"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T09:05:53+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T11:14:18+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T15:09:47+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-23T09:10:35+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3350"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T09:07:10+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T09:20:20+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T09:26:33+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-23T09:10:35+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4345"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T10:00:48+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T13:07:05+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T13:18:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-18T10:10:19+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2412"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T10:24:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T12:50:39+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T12:51:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-18T10:30:20+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3615"/>
+		<event>
+			<string key="Resource" value="Value 11"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 11"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:11:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 11"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 11"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:12:13+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 11"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 11"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:12:58+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 11"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 11"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:14:12+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-18T14:20:40+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 106"/>
+		<int key="variant-index" value="106"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2863"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:46:02+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T16:24:04+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T07:27:04+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T07:27:21+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T07:28:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-30T13:39:07+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-15T13:39:18+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1283"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T14:50:31+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T09:00:26+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T09:00:37+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-30T15:00:16+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1807"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T15:41:17+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T15:41:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-17T15:42:42+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-03T15:50:48+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2507"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T10:49:46+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T11:11:06+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T11:12:43+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-01T10:50:51+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 107"/>
+		<int key="variant-index" value="107"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1499"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T14:55:10+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T09:28:36+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T10:31:11+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T13:25:26+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T14:10:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T13:33:18+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T13:44:25+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T07:28:34+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T07:30:29+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-28T13:57:34+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-28T14:24:06+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T12:14:15+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T12:14:22+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-19T12:14:37+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1021"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-18T14:59:36+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T08:08:06+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T10:17:39+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-25T15:01:30+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 69"/>
+		<int key="variant-index" value="69"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1757"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T08:19:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T08:27:41+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T08:27:59+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T10:43:52+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Create SW anomaly"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Create SW anomaly"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T14:33:45+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-09T14:02:17+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-24T14:02:34+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 3"/>
+		<int key="variant-index" value="3"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1821"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T11:05:54+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T09:24:48+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T13:30:44+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T14:53:10+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-03T08:52:19+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-22T11:00:18+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 37"/>
+		<int key="variant-index" value="37"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4285"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T13:14:32+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T13:15:14+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-01T10:48:56+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-01T10:50:23+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-03T13:38:40+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-03T13:38:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-22T13:20:22+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 9"/>
+		<int key="variant-index" value="9"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3580"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T15:05:45+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T08:20:20+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T12:38:06+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-07T09:51:06+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-08T09:05:16+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-23T09:05:25+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case183"/>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Insert ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Insert ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-19T15:08:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T07:53:47+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T07:15:57+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T07:18:09+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-25T15:10:30+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case182"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T08:31:32+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T10:55:17+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T10:59:57+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-23T08:40:25+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2208"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T10:00:50+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T10:26:34+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-14T15:27:19+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-29T15:27:32+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1184"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-20T13:58:47+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-26T16:12:55+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-26T16:14:20+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-23T14:00:18+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case3386"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T07:23:26+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T13:17:32+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Create SW anomaly"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Create SW anomaly"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T13:17:43+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-31T07:36:08+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-22T07:30:28+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2671"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T07:33:57+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T09:39:58+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T09:40:25+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-24T07:40:32+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 3"/>
+		<int key="variant-index" value="3"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case4263"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-21T17:08:34+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T08:11:19+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T11:04:56+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T11:44:14+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-27T11:44:23+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-22T16:00:23+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 4"/>
+		<int key="variant-index" value="4"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case1211"/>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T12:25:24+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T13:04:07+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T13:04:18+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-04T13:05:47+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-25T12:30:29+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 34"/>
+		<int key="variant-index" value="34"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case278"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T12:55:50+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 12"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 12"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-25T15:38:49+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T08:46:50+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Wait"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Wait"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-16T08:47:04+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 16"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 16"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-21T15:04:47+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 6"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 6"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-22T12:27:44+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-07-07T12:27:55+02:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="Case2423"/>
+		<event>
+			<string key="Resource" value="Value 2"/>
+			<string key="Activity" value="Assign seriousness"/>
+			<string key="org:resource" value="Value 2"/>
+			<string key="concept:name" value="Assign seriousness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-05-24T13:04:42+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Take in charge ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Take in charge ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-07T09:34:31+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 15"/>
+			<string key="Activity" value="Resolve ticket"/>
+			<string key="org:resource" value="Value 15"/>
+			<string key="concept:name" value="Resolve ticket"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-07T09:37:38+02:00"/>
+		</event>
+		<event>
+			<string key="Resource" value="Value 5"/>
+			<string key="Activity" value="Closed"/>
+			<string key="org:resource" value="Value 5"/>
+			<string key="concept:name" value="Closed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2010-06-25T13:10:19+02:00"/>
+		</event>
+	</trace>
+</log>
