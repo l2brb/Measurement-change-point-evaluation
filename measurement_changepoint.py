@@ -8,8 +8,9 @@ import os
 import re
 
 # WRITE TIMESTAMPS BY FIRST CREATING A LIST WITH FILE NAMES ENDING IN .xes
-
-directory_path = "/Users/luca/Documents/phd_things/tests_drift_measurement/Italian/sublog"
+# The variable directory path must be set for the chosen sub-log [sepsis or italian]
+directory_path = "./test/italian_log/italian_sublog"
+# directory_path = "./test/sepsis_log/sepsis_sublog"
 xes_files = [f for f in os.listdir(directory_path) if f.endswith('.xes')]
 
 # SORT BY CREATION DATE
@@ -27,7 +28,9 @@ xes_files.sort(key=natural_keys)
 df_timestamp=[]
 
 for i in range(len(xes_files)):
-    log = pm4py.read_xes('/Users/luca/Documents/phd_things/tests_drift_measurement/Italian/sublog/'+xes_files[i])
+    # The variable directory path must be set for the chosen sub-log [sepsis or italian]
+    log = pm4py.read_xes('./test/italian_log/italian_sublog'+xes_files[i])
+    # log = pm4py.read_xes('/Users/luca/Documents/phd_things/tests_drift_measurement/Italian/sublog/' + xes_files[i])
     print(log[0][0]['time:timestamp'])
     df_timestamp.append(log[0][0]['time:timestamp'].strftime("%Y/%m/%d"))
 
@@ -113,7 +116,7 @@ def normalize_measure_trend(vector, measure):
 
 # MEASURES DATASET IMPORT
 
-df = pd.read_csv('sublog_measures_italian.csv', sep=';', names=['SUBLOG', 'Support',	'Confidence',	'Recall',	'Lovinger',	'Specificity',	'Accuracy',	'Lift',	'Leverage',	'Compliance',	'Odds Ratio',	'Gini Index',	'Certainty factor',	'Coverage',	'Prevalence',	'Added Value',	'Relative Risk',	'Jaccard',	'Ylue Q',	'Ylue Y',	'Klosgen', 'Conviction',	'Interestingness Weighting Dependency',	'Collective Strength',	'Laplace Correction',	'J Measure',	'One-way Support',	'Two-way Support',	'Two-way Support Variation',	'Linear Correlation Coefficient',	'Piatetsky-Shapiro',	'Cosine',	'Information Gain',	'Sebag-Schoenauer',	'Least Contradiction',	'Odd Multiplier',	'Example and Counterexample Rate',	'Zhang'], header=0)
+df = pd.read_csv('./test/italian_log/sublog_measures_italian.csv', sep=';', names=['SUBLOG', 'Support',	'Confidence',	'Recall',	'Lovinger',	'Specificity',	'Accuracy',	'Lift',	'Leverage',	'Compliance',	'Odds Ratio',	'Gini Index',	'Certainty factor',	'Coverage',	'Prevalence',	'Added Value',	'Relative Risk',	'Jaccard',	'Ylue Q',	'Ylue Y',	'Klosgen', 'Conviction',	'Interestingness Weighting Dependency',	'Collective Strength',	'Laplace Correction',	'J Measure',	'One-way Support',	'Two-way Support',	'Two-way Support Variation',	'Linear Correlation Coefficient',	'Piatetsky-Shapiro',	'Cosine',	'Information Gain',	'Sebag-Schoenauer',	'Least Contradiction',	'Odd Multiplier',	'Example and Counterexample Rate',	'Zhang'], header=0)
 
 # DATASET CLEANING
 
@@ -183,6 +186,6 @@ graph.subplots_adjust(bottom=0.2)
 
 graph.savefig('italian_measures_trend.pdf')
 plt.show()
-exit()
+
 
 
