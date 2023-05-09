@@ -1,7 +1,7 @@
 # Measurement-change-point-evaluation
 This repository contains the experimental settings used to evaluate the impact of process drift on specification measures presented in the paper “Measuring Rule-based LTLf Process Specifications: A Probabilistic Data-driven Approach”.
 # Requirements
-In order to run the system, the following libraries must be installed: python3, pm4py, os, re, pandas, matplotlib.
+In order to run the system, the following libraries must be installed: python3, pm4py, os, re, pandas, numpy, matplotlib.
 # Overview
 The first step to take is the discovery of the process model. In this case we do this through Janus https://github.com/Oneiroe/Janus. Other algorithms can also be used.
 This is the used command to launch the Janus mining (further details on the parameters can be found in the paper):
