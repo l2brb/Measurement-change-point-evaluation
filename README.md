@@ -1,9 +1,9 @@
 # Measurement-change-point-evaluation
 This repository contains the experimental toolbench used to evaluate the impact of process drifts on specification measures, presented in the paper “Measuring Rule-based LTLf Process Specifications: A Probabilistic Data-driven Approach” (pre-print: https://doi.org/10.48550/arXiv.2305.05418). For other tests and tools mentioned in the paper, please visit https://oneiroe.github.io/DeclarativeSpecificationMeasurements-Journal-static/.
 # Requirements
-In order to run the system, the following libraries must be installed: python3, pm4py, os, re, pandas, numpy, matplotlib.
+To run our Python scripts, the following libraries are required: `pm4py`, `os`, `re`, `pandas`, `numpy`, `matplotlib`.
 # Overview
-The first step to take is the discovery of the process model. In this case we do this through Janus https://github.com/Oneiroe/Janus. Other algorithms can also be used.
+The first step to take is the discovery of the process specification. We do this through Janus https://github.com/Oneiroe/Janus. Other algorithms can also be empoloyed.
 This is the used command to launch the Janus miner (further details on the parameters can be found in the paper):
 
 `Java -cp Janus.jar minerful.JanusOfflineMinerStarter -iLF ${INPUT_LOG} -s 0 -c 0.95 -oJSON ${OUTPUT_FILE_JSON}`
